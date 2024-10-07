@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2d-port</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav id="nav_main">
+        <ul class="nav-links">
+        <li> <a href="index.html"><i class="fa-solid fa-house"></i></a></li>
+            <li ><a id="bgNav1" href="#dec">Description</a></li>
+       
+        </ul>
+    </div>
+
+</nav>
+
+<!-- 1 -->
+ 
+<div id="dec" class="text-image-container">
+    <div class="text-container">
+        <h2>Begin</h2>
+        
+        <p>This is where I import some dependencies.
+
+        </p>
+    </div>
+    <div class="image-container">
+        <img src="/assets/first1.png" alt="Description of image">
+    </div>
+    
+</div>
+<!-- 2 -->
+<div  class="text-image-container">
+    <div class="text-container">
+        <h2>Loading Sprites</h2>
+        <p>Loads the spritesheet, which contains the 
+            player's animations. 
+            It's sliced into 39 columns and 31 rows of sprites. Then define 
+            which sprite frames are used for specific animations. For example, the "walk-down" animation uses frames 936 to 939 
+            in a loop at a speed of 8 frames per second.</p>
+    </div>
+    <div class="image-container">
+        <img src="/assets/first2.png" alt="Description of image">
+    </div>
+    
+</div>
+<!-- 3 -->
+<div class="text-image-container">
+    <div class="text-container">
+        <h2>Setting Background and Loading the Map</h2>
+        <p> Sets the background color of the game window using a hex code. Then load the image.</p>
+    </div>
+    <div class="image-container">
+        <img src="/assets/first3.png" alt="Description of image">
+    </div>
+    
+</div>
+<!-- 4 -->
+<div class="text-image-container">
+    <div class="text-container">
+        <h2>Scene Setup</h2>
+        <p>Loads a JSON file which contains the map data. Then extracts different layers from the JSON. Finally, adds the map to the game sprite.</p>
+    </div>
+    <div class="image-container">
+        <img src="/assets/first4.png" alt="Description of image">
+    </div>
+    
+</div>
+<!-- 5 -->
+<div class="text-image-container">
+    <div class="text-container">
+        <h2>Player Setup</h2>
+        <p> The player is defined and uses the sprite sheet then start with the idle animation.</p>
+    </div>
+    <div class="image-container">
+        <img src="/assets/first5.png" alt="Description of image">
+    </div>
+    
+</div>
+<!-- 6 -->
+<div class="text-image-container">
+    <div class="text-container">
+        <h2>Adding Boundaries and Collisions</h2>
+        <p>Add by using JSON data from map.json. These boundaries are static. Then when the player collides with a boundary, a dialogue pops up.</p>
+    </div>
+    <div class="image-container">
+        <img src="/assets/first6.png" alt="Description of image">
+    </div>
+    
+</div>
+<!-- 7 -->
+<div class="text-image-container">
+    <div class="text-container">
+        <h2>Spawning Point</h2>
+        <p> The player's starting point is determined by spawnpoints from the JSON data.</p>
+    </div>
+    <div class="image-container">
+        <img src="/assets/first7.png" alt="Description of image">
+    </div>
+    
+</div>
+<!-- 8 -->
+<div class="text-image-container">
+    <div class="text-container">
+        <h2>Camera</h2>
+        <p> The camera is adjusted to scale with the window size. And the camera also follows the player's world coordinates.</p>
+    </div>
+    <div class="image-container">
+        <img src="/assets/first8.png" alt="Description of image">
+    </div>
+    
+</div>
+<!-- 9 -->
+<div class="text-image-container">
+    <div class="text-container">
+        <h2>Player Movement</h2>
+        <p> When the left mouse is clicked, the player moves toward the clicked position.</p>
+    </div>
+    <div class="image-container">
+        <img src="/assets/first9.png" alt="Description of image">
+    </div>
+    
+</div>
+<!-- 10 -->
+<div class="text-image-container">
+    <div class="text-container">
+        <h2>Stop Animation</h2>
+        <p> When the player stops moving , the animation switches back to idle state. </p>
+    </div>
+    <div class="image-container">
+        <img src="/assets/first10.png" alt="Description of image">
+    </div>
+    
+</div>
+
+<!-- CONTACT -->
+     
+<section id="contact">
+    <p class="section_text_p1">Get in Touch</p>
+    <h1 class="title">Contact Me</h1>
+    <div class="contact-info-upper-container">
+      <div class="contact-info-container">
+        <img
+          src="./assets/email.png"
+          alt="Email icon"
+          class="icon contact-icon email-icon"
+        />
+        <p><a id="mail" href="mailto:frigust2549@gmail.com">frigust2549@gmail.com</a></p>
+      </div>
+      <div class="contact-info-container">
+        
+       
+      </div>
+    </div>
+  </section>
+  <footer>
+    <nav>
+      <div class="nav-links-container">
+        <ul class="nav-links">
+            <li ><a id="bgNav1" href="#dec">Description</a></li>
+        </ul>
+      </div>
+    </nav>
+    
+  </footer>
+
+</body>
+</html>

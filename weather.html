@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav id="nav_main">
+        <ul class="nav-links">
+        <li> <a href="index.html"><i class="fa-solid fa-house"></i></a></li>
+            <li ><a id="bgNav3" href="#weather">Description</a></li>
+       
+        </ul>
+    </div>
+
+</nav>
+
+<!-- Dec1 -->
+ 
+<div id="weather" class="text-image-container">
+    <div class="text-container">
+        <h2>API Setup</h2>
+        <p>We need to have a unique api key to request the OpenWeatherApp API. apiWeb is the base URL for the API request.</p>
+    </div>
+    <div class="image-container">
+        <img src="/assets/Third1.png" alt="Description of image">
+    </div>
+    
+</div>
+<div class="text-image-container">
+    <div class="text-container">
+        <h2>DOM Selection</h2>
+        <p>The first one stores input. The button trigger the weather search when a user click.</p>
+    </div>
+    <div class="image-container">
+        <img src="/assets/Third2.png" alt="Description of image">
+    </div>
+    
+</div>
+<div class="text-image-container">
+    <div class="text-container">
+        <h2>Asynchronous Weather</h2>
+        <p>The function takes a city name as a parameter, builds a complete API request URL then uses fetch to retrieve the data.</p>
+    </div>
+    <div class="image-container">
+        <img src="/assets/Third4.png" alt="Description of image">
+    </div>
+    
+</div>
+<div class="text-image-container">
+    <div class="text-container">
+        <h2>Error Handling</h2>
+        <p>The code checks if the response status from the API is 404(the city not found).</p>
+    </div>
+    <div class="image-container">
+        <img src="/assets/Third3.png" alt="Description of image">
+    </div>
+</div>
+    <div class="text-image-container">
+        <div class="text-container">
+            <h2>Display Data</h2>
+            <p>The weather information is displayed on the web by updating the inner HTML of specific elements.</p>
+        </div>
+        <div class="image-container">
+            <img src="/assets/Third5.png" alt="Description of image">
+        </div>
+        
+    </div>
+    <div class="text-image-container">
+        <div class="text-container">
+            <h2>Icon Display</h2>
+            <p>Based on the data.weather[0].main (the main weather condition, like "Clouds" or "Clear"), the corresponding weather icon is displayed by updating the weatherIcon.src.
+                .</p>
+        </div>
+        <div class="image-container">
+            <img src="/assets/Third6.png" alt="Description of image">
+        </div>
+        
+    </div>
+    <div class="text-image-container">
+        <div class="text-container">
+            <h2>Show Weather and Hide Error</h2>
+            <p>If the weather data is retrieved, the .weather block is displayed and .error message is hidden.</p>
+        </div>
+        <div class="image-container">
+            <img src="/assets/Third7.png" alt="Description of image">
+        </div>
+        
+    </div>
+    <div class="text-image-container">
+        <div class="text-container">
+            <h2>Handling Button</h2>
+            <p>When search button is clicked, the checkWeather is triggered. And, the value entered in the search input is passed as an argument to the function then fetching and displaying the weather data for that city.</p>
+        </div>
+        <div class="image-container">
+            <img src="/assets/Third8.png" alt="Description of image">
+        </div>
+        
+    </div>
+    
+</div>
+<!-- Contact -->
+
+<section id="contact">
+    <p class="section_text_p1">Get in Touch</p>
+    <h1 class="title">Contact Me</h1>
+    <div class="contact-info-upper-container">
+      <div class="contact-info-container">
+        <img
+          src="./assets/email.png"
+          alt="Email icon"
+          class="icon contact-icon email-icon"
+        />
+        <p><a id="mail" href="mailto:frigust2549@gmail.com">frigust2549@gmail.com</a></p>
+      </div>
+      <div class="contact-info-container">
+        
+       
+      </div>
+    </div>
+  </section>
+  <footer>
+    <nav>
+      <div class="nav-links-container">
+        <ul class="nav-links">
+            <li ><a id="bgNav3" href="#weather">Description</a></li>
+        </ul>
+      </div>
+    </nav>
+    
+  </footer>
+
+
+
+
+</body>
+</html>

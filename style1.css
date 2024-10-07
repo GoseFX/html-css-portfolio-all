@@ -1,0 +1,293 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    background-color: rgb(255, 255, 255);
+    
+}
+h1{
+    font-size: 40px;
+}
+p{
+    font-size: 25px;
+}
+
+#nav_main{
+    
+    
+    display: flex;
+    margin-top: 1rem;
+    justify-content: space-around;
+    margin-bottom: 10px;
+    padding: 10px ;
+    position: sticky;
+    z-index: 1000;
+    top:20px;
+    border-radius: 30px;
+    backdrop-filter: blur(10px);
+
+    
+   
+}
+.nav-links a{
+    text-decoration: none;
+    transition: all 400ms ease;
+    color: #333;
+    font-weight: 700;
+    font-size: 36px;
+    padding: 20px 20px;
+    
+}
+.nav-links {
+    display: flex;
+    list-style: none;
+    text-align: center;
+    justify-content: space-around;
+  
+    
+}
+.nav-links li{
+    margin-left: 10px;
+}
+/* WILL CHANGE LATER */
+#bgNav1:hover{
+    color: #860ada;  
+}
+#bgNav2:hover{
+    color: #e47cf6;
+}
+#bgNav3:hover{
+    color: #1a61cc;
+}
+#bgNav4:hover{
+    color: green;
+}
+/*Project1*/
+
+.project_1_container {
+    display: flex;
+    justify-content: center; 
+    padding: 40px 20px; 
+    /* background-color: #311047; */
+}
+.project_1_container a {
+    text-decoration: none; /* Ensures no underline for links in this section */
+    color: inherit; 
+    font-size: 3rem; /* Keeps the color the same as the surrounding text */
+}
+
+.project_container {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+    width: 100%;
+    max-width: 1200px;
+    padding: 2rem;
+    /* background-color: #311047;
+    border-radius: 10px; */
+}
+
+.text_container {
+    flex: 1; 
+    margin-top: 10px; 
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 35px;
+    color: #000000;
+   
+}
+
+.project_img_container {
+    max-width: 700px;
+    max-height: 500px;
+    height: auto;
+   margin-top: 50px; 
+   border: #333 3px dashed;
+}
+
+/*Project2*/
+.project_2_container{
+    justify-content: center;
+    display: flex;
+    
+    padding: 40px 20px; 
+    
+    /* background-color: #F5D5FB; */
+}
+.project_2_container a {
+    text-decoration: none; /* Ensures no underline for links in this section */
+    color: inherit; 
+    font-size: 3rem; /* Keeps the color the same as the surrounding text */
+}
+
+.project_container2{
+    display: flex;
+    justify-content: flex-start; /* Aligns the content to the left */
+    align-items: center;
+    width: 100%;
+    max-width: 1200px;
+
+}
+.text_container2{
+    padding: 30px;
+    margin-top: 10px; 
+    display: flex;
+    justify-content: flex-start; /* Aligns text to the left */
+    flex-direction: column; /* Stacks text vertically */
+    text-decoration: none;
+    
+    
+}
+#Adj{
+    display: flex;
+    justify-content: flex-end;
+}
+/*Project3*/
+.project_3_container{
+    display: flex;
+    justify-content: center; 
+    padding: 40px 20px; 
+   
+}
+.project_3_container a {
+    text-decoration: none; /* Ensures no underline for links in this section */
+    color: inherit; 
+    font-size: 3rem;/* Keeps the color the same as the surrounding text */
+}
+.project_container3{
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+    width: 100%;
+    max-width: 1200px;
+}
+
+.text_container3{
+    padding: 30px;
+    margin-top: 10px; 
+    display: flex;
+    justify-content: flex-start; /* Aligns text to the left */
+    flex-direction: column;
+}
+
+/*Project4*/
+.project_4_container{
+    justify-content: center;
+    display: flex;
+    margin-left: -120px;
+    padding: 40px 20px; 
+   
+}
+.project_4_container a {
+    text-decoration: none; /* Ensures no underline for links in this section */
+    color: inherit; 
+    font-size: 3rem;
+    /* Keeps the color the same as the surrounding text */
+}
+
+.project_container4{
+    display: flex;
+    justify-content: flex-start; /* Aligns the content to the left */
+    align-items: center;
+    width: 100%;
+    max-width: 1200px;
+}
+.text_container4{
+    
+    padding: 30px;
+    margin-top: 10px; 
+    display: flex;
+    justify-content: flex-start; /* Aligns text to the left */
+    flex-direction: column;
+   
+}
+
+
+.icon_container {
+    display: flex;          
+    gap: 10px;             
+     
+    margin-top: 10px;     
+}
+
+.icon_container a {
+    font-size: 2rem; /* Adjust icon size if needed */
+}
+
+/* CONTACT */
+#contact {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 70vh;
+  }
+  .section_text_p1{
+    text-align: center;
+  }
+  .title{
+    text-align: center;
+  }
+  .contact-info-upper-container {
+    display: flex;
+    justify-content: center;
+    border-radius: 2rem;
+    border: rgb(53, 53, 53) 0.1rem solid;
+    border-color: rgb(163, 163, 163);
+    background: (250, 250, 250);
+    margin: 2rem auto;
+    padding: 0.5rem;
+  }
+  
+  .contact-info-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    margin: 1rem;
+  }
+  
+  .contact-info-container p {
+    font-size: larger;
+  }
+  
+  .contact-icon {
+    cursor: default;
+  }
+  
+  .email-icon {
+    height: 2.5rem;
+  }
+  #mail{
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  /* FOOTER SECTION */
+  
+  footer {
+    height: 26vh;
+    margin: 0 1rem;
+  }
+  
+  footer p {
+    text-align: center;
+  }
+/* .nav-links{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+   
+    gap: 1rem;
+    list-style: none;
+    font-size: 1.5rem;
+} */
