@@ -120,15 +120,15 @@
       height: auto; 
   }
   .experience-detail-container {
-    flex-direction: column; /* Stack items vertically */
-    align-items: center; /* Center items */
+    flex-direction: column; 
+    align-items: center; 
 }
 
 .details-container {
-    margin-bottom: 20px; /* Add some spacing between stacked containers */
+    margin-bottom: 20px; 
 }
 
 .project-img {
-    max-width: 80%; /* Reduce image width on smaller screens */
+    max-width: 80%; 
 }
 }

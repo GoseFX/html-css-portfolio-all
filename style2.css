@@ -68,24 +68,24 @@ p{
 }
 /* Dec1 */
 .text-image-container {
-    display: flex;                 /* Enables flexbox layout */
-    justify-content: space-between; /* Makes space between text and image */
-    align-items: center;           /* Vertically centers the items */
-    max-width: 1200px;             /* Optional: sets a maximum width for the container */
-    margin: 0 auto;                /* Centers the container horizontally */
+    display: flex;                
+    justify-content: space-between; 
+    align-items: center;          
+    max-width: 1200px;            
+    margin: 0 auto;                
     padding: 2rem;  
-                /* Optional: adds padding around the container */
+               
 }
 
 .text-container {
-    flex: 1;                       /* Makes the text take up available space */
-    padding-right: 20px;           /* Adds space between text and image */
+    flex: 1;                       
+    padding-right: 20px;          
 }
 
 .image-container img {
-    max-width: 700px;              /* Sets a maximum width for the image */
+    max-width: 700px;            
     height: auto;    
-    border: dashed;              /* Ensures the image maintains its aspect ratio */
+    border: dashed;              
 }
 /* Contact */
 #contact {

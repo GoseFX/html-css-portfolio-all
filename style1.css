@@ -77,12 +77,12 @@ p{
     display: flex;
     justify-content: center; 
     padding: 40px 20px; 
-    /* background-color: #311047; */
+   
 }
 .project_1_container a {
-    text-decoration: none; /* Ensures no underline for links in this section */
+    text-decoration: none; 
     color: inherit; 
-    font-size: 3rem; /* Keeps the color the same as the surrounding text */
+    font-size: 3rem; 
 }
 
 .project_container {
@@ -92,8 +92,7 @@ p{
     width: 100%;
     max-width: 1200px;
     padding: 2rem;
-    /* background-color: #311047;
-    border-radius: 10px; */
+   
 }
 
 .text_container {
@@ -109,7 +108,7 @@ p{
 
 .project_img_container {
     max-width: 42.75rem;
-    /* max-height: 500px; */
+   
     height: auto;
    margin-top: 50px; 
    
@@ -123,17 +122,17 @@ p{
     
     padding: 40px 20px; 
     
-    /* background-color: #F5D5FB; */
+   
 }
 .project_2_container a {
-    text-decoration: none; /* Ensures no underline for links in this section */
+    text-decoration: none; 
     color: inherit; 
-    font-size: 3rem; /* Keeps the color the same as the surrounding text */
+    font-size: 3rem; 
 }
 
 .project_container2{
     display: flex;
-    justify-content: flex-start; /* Aligns the content to the left */
+    justify-content: flex-start;
     align-items: center;
     width: 100%;
     max-width: 1200px;
@@ -143,8 +142,8 @@ p{
     padding: 30px;
     margin-top: 10px; 
     display: flex;
-    justify-content: flex-start; /* Aligns text to the left */
-    flex-direction: column; /* Stacks text vertically */
+    justify-content: flex-start; 
+    flex-direction: column;
     text-decoration: none;
     
     
@@ -161,9 +160,9 @@ p{
    
 }
 .project_3_container a {
-    text-decoration: none; /* Ensures no underline for links in this section */
+    text-decoration: none; 
     color: inherit; 
-    font-size: 3rem;/* Keeps the color the same as the surrounding text */
+    font-size: 3rem;
 }
 .project_container3{
     display: flex;
@@ -177,7 +176,7 @@ p{
     padding: 30px;
     margin-top: 10px; 
     display: flex;
-    justify-content: flex-start; /* Aligns text to the left */
+    justify-content: flex-start; 
     flex-direction: column;
 }
 
@@ -190,15 +189,15 @@ p{
    
 }
 .project_4_container a {
-    text-decoration: none; /* Ensures no underline for links in this section */
+    text-decoration: none; 
     color: inherit; 
     font-size: 3rem;
-    /* Keeps the color the same as the surrounding text */
+    
 }
 
 .project_container4{
     display: flex;
-    justify-content: flex-start; /* Aligns the content to the left */
+    justify-content: flex-start; 
     align-items: center;
     width: 100%;
     max-width: 1200px;
@@ -208,7 +207,7 @@ p{
     padding: 30px;
     margin-top: 10px; 
     display: flex;
-    justify-content: flex-start; /* Aligns text to the left */
+    justify-content: flex-start; 
     flex-direction: column;
    
 }
@@ -222,7 +221,7 @@ p{
 }
 
 .icon_container a {
-    font-size: 2rem; /* Adjust icon size if needed */
+    font-size: 2rem; 
 }
 
 /* CONTACT */
