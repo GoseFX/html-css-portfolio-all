@@ -1,0 +1,62 @@
+
+
+/* Media Queries for Responsiveness */
+@media (max-width: 768px) {
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .project_container, .project_container2, .project_container3, .project_container4 {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .project_img_container {
+        max-width: 90%;
+    }
+    
+
+    .text_container, .text_container2, .text_container3, .text_container4 {
+        max-width: 90%;
+       align-items: center;
+       text-align: center;
+    }
+   
+   
+    .contact-info-upper-container {
+        flex-direction: column;
+    }
+    .text_container4 h1, .text_container4 p {
+        margin: 0;
+        padding: 10px 10px;
+    }
+    
+  
+}
+
+@media (max-width: 480px) {
+    .nav-links {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .project_img_container {
+        max-width: 90%;
+
+    }
+
+    .text_container, .text_container2, .text_container3, .text_container4 {
+        padding: 5px;
+    }
+
+    .icon_container {
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+    }
+    #weather .project_img_container {
+        max-width: 80%; /* You can adjust this percentage to test responsiveness */
+        margin: 0 auto;  /* Center the image */
+    }
+}
