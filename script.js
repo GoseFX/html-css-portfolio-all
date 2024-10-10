@@ -7,9 +7,6 @@ function toggleMenu(){
 
 
 
-SearchBtn.addEventListener("click", () => {
-    checkWeather(SearchResult.value);
-});
 
 
 
